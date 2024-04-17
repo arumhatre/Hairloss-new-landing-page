@@ -793,6 +793,14 @@ hr.bannerhr {
   height: 465px;
 }
 
+.tratment-sub-heading{
+  padding-top: 20px;
+  font-size: 20px;
+  color: #212121;
+  line-height: 30px;
+  font-weight: 600;
+}
+
 /*==========================================*/
 /* tratment slider css*/
 /*==========================================*/
@@ -1269,20 +1277,19 @@ hr.bannerhr {
   line-height: 24px;
 }
 
-
-.open-button { 
-  background-color: #1b75ab;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  position: fixed;
-  bottom: 23px;
-  right: 28px;
-  width: 280px;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
+.open-button {
+    background-color: #1b75ab;
+    color: white;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 18px;
+    right: 19px;
+    width: 250px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* The popup chat - hidden by default */
