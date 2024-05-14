@@ -103,7 +103,10 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .banner-list{padding-right:0;font-size:18px;color:#30292b;padding-inline-start:25px}
 .banner-content-cls{height:420px;max-height:420px}
 .mob-cls-ban-icon{width:70px;height:70px}
-.blue-strip-offer-section{text-align:right;color:#212121;margin-top:-12px;font-size:14px}
+.blue-strip-offer-section{text-align:right;color:#212121;margin-top:-155px;font-size:14px; font-weight: 600; writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: scale(1);
+}
 }
 @media (max-width:430px){
 .banner-content-cls{height:395px;max-height:400px}
@@ -309,7 +312,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .xogen-list-para li{padding-right:20px;color:#212121}
 .Xogen_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:55px}
 .Xogen_Sub_heding_banner{font-size:29px;font-weight:400;margin-bottom:0}
-.Xogen_black_heding{margin-top:30px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase;display:inline-flex}
+.Xogen_black_heding{display: none; margin-top:30px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase;}
 .xogen_banner_content{margin-bottom:60px}
 .xogen_banner_content img{width:70%}
 @media (max-width:1680px){
@@ -317,7 +320,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_Sub_heding_banner{font-size:26px}
 .xogen_banner_content{margin-bottom:25px}
 .xogen_banner_content img{width:70%}
-.Xogen_black_heding{font-size:28px}
+/*.Xogen_black_heding{font-size:28px}*/
 }
 @media (max-width:1600px){
 .xogen_banner_content{padding-top:50px;margin-bottom:25px}
@@ -329,13 +332,13 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 @media (max-width:1366px){
 .Xogen_heding_banner{font-size:45px}
 .Xogen_Sub_heding_banner{font-size:24px}
-.Xogen_black_heding{font-size:24px}
+/*.Xogen_black_heding{font-size:24px}*/
 }
 @media (max-width:1024px){
 .Xogen_heding_banner{font-size:30px}
 .Xogen_Sub_heding_banner{font-size:16px}
 .xogen_banner_content img{width:60%}
-.Xogen_black_heding{margin-top:15px;font-size:18px}
+/*.Xogen_black_heding{margin-top:15px;font-size:18px}*/
 }
 @media (max-width:992px){
 .Xogen_Sub_heding_banner{font-size:21px}
@@ -350,7 +353,23 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .xogen_banner_content{padding-top:20px}
 .xogen-list-para{list-style:none;display:inline;padding-inline-start:0px}
 .xogen-list-para li{padding-bottom:20px}
+ .Xogen_black_heding{
+ 	display: none;
+ }
 }
+
+@media (max-width:600px){
+  .Xogen_black_heding{
+  	padding: 5px 10px;
+	display: inline;
+	font-size:24px;
+	font-weight: 500;
+	color: #fff;
+	background: linear-gradient(269deg, #083b67 0%, #187ec2 35%, #083b67 100%);
+}
+}
+
+
 @media (max-width:411px){
 .Xogen_heding_banner{font-size:40px}
 .Xogen_Sub_heding_banner{font-size:21px}
@@ -381,4 +400,10 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
     background-repeat: no-repeat;
     background-image: url(../images/now-in-india-strip.webp);
     background-size: auto !important;
+}
+
+@media (max-width:600px){
+	.xogen-ban-new-in-india {
+		background-image: none;
+	}
 }
