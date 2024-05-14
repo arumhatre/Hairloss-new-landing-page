@@ -647,8 +647,8 @@ hr.bannerhr {
 .offer-head-main {
     padding-top: 15px;
     color: #ffffff;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 }
@@ -1050,7 +1050,7 @@ hr.bannerhr {
 .flip-list {
     color: #636363;
     font-size: 15px;
-    padding-inline-start: 30px;
+    padding-inline-start: 19px;
 }
 
 .box-for-treatment-sec{
@@ -1061,7 +1061,7 @@ hr.bannerhr {
 .ai-box-content {
   padding:10px 20px;
   max-height: 500px;
-  height: 475px;
+  height: 500px;
 }
 
 .tratment-sub-heading{
@@ -1703,12 +1703,12 @@ hr.bannerhr {
 
 .Xogen_black_heding{
   margin-top: 30px;
-  padding:10px 20px;
+/*  padding:10px 20px;*/
   font-size: 38px;
-  font-weight: 500;
-  color: #ffffff;
+  font-weight: 600;
+  color: #4b4b4b;
   text-transform: uppercase;
-  background-color: #383838;
+/*  background-color: #383838;*/
   display: inline-flex;
 }
 
@@ -1774,7 +1774,7 @@ hr.bannerhr {
   }
 
   .Xogen_black_heding{
-    padding: 10px 15px;
+/*    padding: 10px 15px;*/
     font-size: 24px;
   }
   
