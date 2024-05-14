@@ -357,12 +357,14 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 
 @media (max-width:600px){
   .Xogen_black_heding{
-  	padding: 5px 10px;
+  	/*padding: 5px 10px;
 	display: inline;
 	font-size:24px;
 	font-weight: 500;
 	color: #fff;
-	background: linear-gradient(269deg, #083b67 0%, #187ec2 35%, #083b67 100%);
+	background: linear-gradient(269deg, #083b67 0%, #187ec2 35%, #083b67 100%);*/
+	display: block;
+	margin-top:20px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase;
 }
 }
 
@@ -371,7 +373,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_heding_banner{font-size:40px}
 .Xogen_Sub_heding_banner{font-size:21px}
 .xogen_banner_content img{width:65%}
-.Xogen_black_heding{font-size:21px}
+.Xogen_black_heding{font-size:20px}
 }
 @media (max-width:384px){
 .Xogen_heding_banner{font-size:38px}
@@ -402,5 +404,8 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 @media (max-width:600px){
 	.xogen-ban-new-in-india {
 		background-image: none;
+	}
+	.banner_list_xogen{
+		padding-top: 5px;
 	}
 }
