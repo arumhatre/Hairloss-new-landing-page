@@ -95,6 +95,7 @@ header {
   .main-all-heading {
     font-size: 30px;
     text-align: center;
+    text-align: left;
     line-height: 35px;
   }
 }
