@@ -103,10 +103,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .banner-list{padding-right:0;font-size:18px;color:#30292b;padding-inline-start:25px}
 .banner-content-cls{height:420px;max-height:420px}
 .mob-cls-ban-icon{width:70px;height:70px}
-.blue-strip-offer-section{text-align:right;color:#212121;margin-top:-155px;font-size:14px; font-weight: 600; writing-mode: vertical-rl;
-        text-orientation: mixed;
-        transform: scale(1);
-}
+.blue-strip-offer-section{text-align:right;color:#212121; padding-bottom:20px;margin-top:-155px;font-size:14px; font-weight: 600; writing-mode: vertical-rl;text-orientation: mixed;transform: scale(1);}
 }
 @media (max-width:430px){
 .banner-content-cls{height:395px;max-height:400px}
