@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
@@ -41,6 +41,22 @@ header {
   }
 }
 
+.terms-con-font-cls{
+  color: #1a75ac;
+}
+
+.carousel-indicators li{
+  background-color: #2876a9;
+  opacity: 1;
+}
+
+.carousel-indicators .active{
+   background-color: #e41225;
+   opacity: 1;
+}
+
+
+
 .head-main-tel{
   color: #fff;
   font-weight: 700;
@@ -57,11 +73,16 @@ header {
 }
 
 .main-all-heading {
-    font-size: 26px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #1a74ab;
-    line-height: 28px;
+    font-size: 32px;
+/*    text-transform: uppercase;*/
+    font-weight: 500;
+    color: #212121;
+    line-height: 38px;
+}
+
+.main-all-heading u{
+   text-decoration-color: #e3000f;
+   text-underline-offset: 6px;
 }
 
 .main-all-heading span{
@@ -72,7 +93,9 @@ header {
 
 @media (max-width: 768px){
   .main-all-heading {
+    font-size: 30px;
     text-align: center;
+    line-height: 35px;
   }
 }
 
@@ -87,8 +110,13 @@ header {
 /*==========================================*/
 
 .banner-section-cls{
-  background-color: #f1faff;
+    background: url(../images/xogen-ban-bg.webp) bottom center no-repeat;
+    background-size: cover;
 }
+
+/*.banner-section-cls{
+  background-color: #f1faff;
+}*/
 
 .banner-up-para{
   font-size: 40px;
@@ -97,9 +125,9 @@ header {
 }
 
 .main-banner-heading-n{
-  font-size: 65px;
+  font-size: 45px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   color: #0074ad;
 }
 
@@ -110,7 +138,7 @@ header {
 
 .banner-sub-heding-n{
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .banner-list {
@@ -134,6 +162,33 @@ hr.bannerhr {
   font-weight: 500;
 }
 
+  .blue-strip-offer-section{
+    text-align: right;
+    color: #fff;
+    margin-top:-35px;
+  }
+
+
+#carouselExampleIndicators .carousel-control-next, .carousel-control-prev{
+  display: none !important;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+  z-index:5;
+}
+
+
+@media (max-width: 1700px){
+
+.banner-content-cls{
+  height: 530px;
+  max-height: 530px;
+}
+
+
+}
+
+
 
 @media (max-width: 1600px){
   .banner-up-para {
@@ -143,14 +198,14 @@ hr.bannerhr {
 }
  
  .main-banner-heading-n {
-    font-size: 45px;
+    font-size: 42px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     color: #0074ad;
 }
 .banner-sub-heding-n {
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-list {
@@ -161,11 +216,76 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 400px;
-  max-height: 400px;
+  height: 450px;
+  max-height: 450px;
+}
+
+.blue-strip-offer-section {
+    text-align: right;
+    color: #fff;
+    margin-top: -25px;
+    font-size:16px;
+}
+
+
+}
+
+
+@media (max-width: 1500px){
+  .banner-content-cls{
+  height: 450px;
+  max-height: 450px;
+}
+
+.blue-strip-offer-section {
+    text-align: right;
+    color: #fff;
+    margin-top: -25px;
+    font-size:15px;
 }
 
 }
+
+
+
+@media (max-width: 1450px){
+  .banner-content-cls{
+  height: 450px;
+  max-height: 450px;
+}
+}
+
+
+@media (max-width: 1400px){
+   .main-banner-heading-n {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #0074ad;
+}
+
+
+.banner-content-cls{
+  height: 440px;
+  max-height: 440px;
+}
+
+.blue-strip-offer-section {
+    text-align: right;
+    color: #fff;
+    margin-top: -25px;
+    font-size:14px;
+}
+
+}
+
+@media (max-width: 1300px){
+  .banner-content-cls{
+  height: 465px;
+  max-height: 465px;
+}
+}
+
 
 @media (max-width: 1200px){
   .banner-up-para {
@@ -175,14 +295,14 @@ hr.bannerhr {
 }
  
  .main-banner-heading-n {
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     color: #0074ad;
 }
 .banner-sub-heding-n {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-list {
@@ -211,13 +331,65 @@ hr.bannerhr {
   max-height: 400px;
 }
 
+.blue-strip-offer-section {
+    text-align: right;
+    color: #fff;
+    margin-top: -25px;
+    font-size:12px;
 }
+
+}
+
+@media (max-width: 1100px){
+
+.banner-content-cls{
+  height: 435px;
+  max-height: 435px;
+}
+}
+
+
+
+@media (max-width:1024px){
+   .main-banner-heading-n {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #0074ad;
+}
+
+.banner-sub-heding-n {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.banner-content-cls{
+  height: 380px;
+  max-height: 450px;
+}
+
+.blue-strip-offer-section{
+  text-align: right;
+  color: #fff;
+  margin-top:-20px;
+}
+
+
+}
+
 
 @media (max-width: 992px){
  
 .banner-content-cls{
-  height: 350px;
-  max-height: 400px;
+  height: 430px;
+  max-height: 450px;
+}
+
+.blue-strip-offer-section {
+    text-align: right;
+    color: #fff;
+    margin-top: -15px;
+    font-size:12px;
 }
 }
 
@@ -230,14 +402,14 @@ hr.bannerhr {
 }
  
  .main-banner-heading-n {
-    font-size: 30px;
+    font-size: 26px;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
     color: #0074ad;
 }
 .banner-sub-heding-n {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-list {
@@ -248,7 +420,7 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 350px;
+  height: 390px;
   max-height: 400px;
 }
 
@@ -262,7 +434,7 @@ hr.bannerhr {
 @media (max-width: 768px){
 
 .banner-content-cls{
-  height: 320px;
+  height: 380px;
   max-height: 400px;
 }
 }
@@ -277,9 +449,10 @@ hr.bannerhr {
 }
 
 .main-banner-heading-n{
-  font-size: 35px;
+  font-size: 32px;
+  line-height: 40px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   color: #0074ad;
 }
 
@@ -289,15 +462,15 @@ hr.bannerhr {
 }
 
 .banner-sub-heding-n{
-  font-size: 25px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .banner-main-icon-heading{
   padding-top: 10px;
   padding-left: 15px;
   font-size: 18px;
-  line-height: 30px;
+  line-height: 25px;
   color: #212121;
   font-weight: 500;
 }
@@ -310,8 +483,8 @@ hr.bannerhr {
 }
 
 .banner-content-cls{
-  height: 370px;
-  max-height: 400px;
+  height: 420px;
+  max-height: 420px;
 }
 
 .mob-cls-ban-icon{
@@ -319,7 +492,84 @@ hr.bannerhr {
    height: 70px;
 }
 
+.blue-strip-offer-section{
+  text-align: right;
+  color: #fff;
+  margin-top:-12px;
+  font-size:14px;
 }
+
+}
+
+
+@media (max-width: 430px){
+
+.banner-content-cls{
+  height: 395px;
+  max-height: 400px;
+}
+
+.main-banner-heading-n{
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #0074ad;
+}
+
+}
+
+
+@media (max-width: 420px){
+
+.banner-content-cls{
+  height: 400px;
+  max-height: 400px;
+}
+}
+
+@media (max-width: 390px){
+
+.banner-content-cls{
+  height: 385px;
+  max-height: 400px;
+}
+
+.main-banner-heading-n{
+  font-size: 30px;
+  line-height: 38px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #0074ad;
+}
+
+.banner-sub-heding-n {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+}
+
+
+
+
+@media (max-width: 360px){
+
+.banner-content-cls{
+  height: 400px;
+  max-height: 400px;
+}
+
+.main-banner-heading-n{
+  font-size: 28px;
+  line-height: 35px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #0074ad;
+}
+
+}
+
 
 @media (max-width: 300px){
   .banner-main-icon-heading {
@@ -337,7 +587,7 @@ hr.bannerhr {
 }
 
 .banner-content-cls {
-    height: 270px;
+    height: 320px;
     max-height: 400px;
 }
 
@@ -355,7 +605,7 @@ hr.bannerhr {
 }
 .banner-sub-heding-n {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .banner-list {
@@ -586,6 +836,13 @@ hr.bannerhr {
     width: 100px;
   }
 
+  .mfp-iframe-holder .mfp-content {
+    line-height: 0;
+    width: 100%;
+    max-width: 900px;
+    height: 90%;
+}
+
 }
 
 @media screen and (max-width: 400px){
@@ -607,6 +864,13 @@ hr.bannerhr {
   width: 30px !important;
   margin-right: 10px !important;
 }
+
+.popup-vimeo {
+    display: ruby;
+    color: #fff;
+    font-weight: 600;
+}
+
 
 .popup-vimeo:hover {
   text-decoration: none;
@@ -727,7 +991,7 @@ hr.bannerhr {
 }
 
 .google-rating-box {
-  height: 250px;
+  height: 260px;
   margin: 15px 0;
   padding: 20px 8px 0px;
   background-color: #fff;
@@ -761,7 +1025,7 @@ hr.bannerhr {
 @media screen and (max-width: 600px) {
 
   .google-rating-box {
-    height: 250px;
+    height: 275px;
     margin: 15px 0;
     padding: 20px 8px 0px;
     background-color: #fff;
@@ -790,7 +1054,7 @@ hr.bannerhr {
 .ai-box-content {
   padding:10px 20px;
   max-height: 500px;
-  height: 465px;
+  height: 475px;
 }
 
 .tratment-sub-heading{
@@ -799,6 +1063,10 @@ hr.bannerhr {
   color: #212121;
   line-height: 30px;
   font-weight: 600;
+}
+
+.tratment-slider-img-wid{
+  width: 100% !important;
 }
 
 /*==========================================*/
@@ -867,8 +1135,8 @@ hr.bannerhr {
 
 
 .faq-box-cls {
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
   border-bottom: 1px solid #b1b1b1;
 }
 
@@ -905,6 +1173,9 @@ hr.bannerhr {
   float: right;
   font-size: 30px;
   font-weight: 400;
+  position: absolute;
+  right: 25px;
+  margin: -15px;
 }
 
 .panel-title a.collapsed:after {
@@ -936,6 +1207,13 @@ hr.bannerhr {
     font-size: 16px;
     color: #636363;
   }
+
+  .faq-box-cls {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #b1b1b1;
+  }
+
 }
 
 /*==========================================*/
@@ -946,7 +1224,7 @@ hr.bannerhr {
   background: #262626;
   color: #fff;
   font-size: 13px;
-  padding: 30px 0;
+  padding: 20px 0;
   font-weight: 500 !important;
 }
 
@@ -1002,6 +1280,17 @@ hr.bannerhr {
   font-weight: 500;
 }
 
+
+@media screen and (max-width: 600px){
+  .footer {
+  background: #262626;
+  color: #fff;
+  font-size: 13px;
+  padding: 10px 0;
+  font-weight: 500 !important;
+  margin-bottom: 60px;
+}
+}
 
 /*==========================================*/
 /* Contact form css*/
@@ -1269,11 +1558,11 @@ hr.bannerhr {
 
 .open-btn-cls-new{
   background-color: #ea1f27;
-  color:#fff;font-size:20px;width:100%;text-decoration:none;padding:28px 0;
-  height: 80px;
+  color:#fff;font-size:20px;width:100%;text-decoration:none;padding:20px 0;
+  height: 60px;
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -1289,7 +1578,7 @@ hr.bannerhr {
     width: 250px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 20px;
 }
 
 /* The popup chat - hidden by default */
@@ -1337,10 +1626,10 @@ hr.bannerhr {
 @media (max-width: 600px){
 
   .open-button {
-    height: 80px;
+    height: 60px;
     background-color: #1b75ab;
     color: white;
-    padding: 16px 20px;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
     position: fixed;
@@ -1348,7 +1637,14 @@ hr.bannerhr {
     right: auto;
     left: 0;
     width: 50%;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 18px;
+}
+
+.open-btn-cls-new:hover{
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
 }
 
 .chat-popup {
@@ -1360,5 +1656,223 @@ hr.bannerhr {
   right: 15px;
   z-index: 9;
 }
+}
 
+/*==========================================*/
+/* side css*/
+/*==========================================*/
+
+.xogen-para{
+  padding-top: 15px;
+  font-size: 16px;
+  color: #212121;
+}
+
+.xogen-list-para{
+  list-style: none;
+  display: flex;
+  padding-inline-start: 0px;
+}
+
+.xogen-list-para li{
+  padding-right: 20px;
+  color: #212121;
+}
+
+
+
+.Xogen_heding_banner{
+  color: #1c82c4;
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 55px;
+}
+
+.Xogen_Sub_heding_banner{
+  font-size: 29px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.Xogen_black_heding{
+  margin-top: 30px;
+  padding:10px 20px;
+  font-size: 38px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #383838;
+  display: inline-flex;
+}
+
+.xogen_banner_content{
+  margin-bottom: 60px;
+}
+
+ .xogen_banner_content img{
+  width: 70%;
+ }
+
+@media (max-width: 1680px){
+
+  .Xogen_heding_banner{
+    font-size: 50px;
+  }
+
+  .Xogen_Sub_heding_banner {
+    font-size: 26px;
+  }
+
+.xogen_banner_content{
+  margin-bottom: 25px;
+  }
+
+ .xogen_banner_content img{
+  width: 70%;
+ }
+  
+ .Xogen_black_heding{
+    font-size: 28px;
+  } 
+
+}
+
+@media (max-width: 1600px){
+  .xogen_banner_content{
+    padding-top: 50px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 1440px){
+  .Xogen_heding_banner{
+    font-size: 50px;
+  }
+
+  .Xogen_Sub_heding_banner{
+    font-size: 26px;
+  }
+
+  
+}
+
+@media (max-width: 1366px){
+
+  .Xogen_heding_banner{
+    font-size: 45px;
+  }
+
+  .Xogen_Sub_heding_banner{
+    font-size: 24px;
+  }
+
+  .Xogen_black_heding{
+    padding: 10px 15px;
+    font-size: 24px;
+  }
+  
+}
+
+@media (max-width: 1024px){
+   .Xogen_heding_banner {
+    font-size: 30px;
+   }
+
+   .Xogen_Sub_heding_banner{
+    font-size: 16px;
+   }
+
+    .xogen_banner_content img{
+      width: 60%;
+     }
+
+     .Xogen_black_heding{
+      margin-top: 15px;
+      font-size: 18px;
+     }
+}
+
+@media (max-width: 992px){
+  .Xogen_Sub_heding_banner{
+    font-size: 21px;
+  }
+  .Xogen_heding_banner{
+    font-size: 36px;
+  }
+}
+
+
+@media (max-width: 800px){
+  .Xogen_Sub_heding_banner{
+    font-size: 21px;
+  }
+  .Xogen_heding_banner{
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 768px){
+      .Xogen_Sub_heding_banner {
+        font-size: 21px;
+    }
+
+    .xogen_banner_content{
+      padding-top: 20px;
+    }
+
+    .xogen-list-para{
+    list-style: none;
+    display: inline;
+    padding-inline-start: 0px;
+  }
+   
+  .xogen-list-para li{
+    padding-bottom: 20px;
+  }
+
+}
+
+@media (max-width: 411px){
+  
+  .Xogen_heding_banner{
+    font-size: 40px;
+  }
+  
+  .Xogen_Sub_heding_banner {
+        font-size: 21px;
+    }
+
+  .xogen_banner_content img {
+    width: 65%;
+  }
+  
+  .Xogen_black_heding{
+    font-size: 21px;
+  }
+
+}
+
+@media (max-width: 384px){
+
+    .Xogen_heding_banner{
+      font-size: 38px;
+    }
+
+  
+}
+
+@media (max-width: 375px){
+  
+   .Xogen_Sub_heding_banner {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 360px){
+  
+}
+
+@media (max-width: 320px){
+  
 }
