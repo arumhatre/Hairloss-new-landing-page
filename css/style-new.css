@@ -442,6 +442,12 @@ hr.bannerhr {
 
 @media (max-width: 600px){
 
+
+.banner-section-cls{
+    background: url(../images/xogen-ban-mob-bg.webp) bottom center no-repeat;
+    background-size: cover;
+}
+
 .banner-up-para{
   font-size: 25px;
   margin-bottom: 0;
