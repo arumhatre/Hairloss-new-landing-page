@@ -310,7 +310,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_heding_banner{color:#1c82c4;font-family:"Playfair Display",serif;font-weight:900;font-size:55px}
 .Xogen_Sub_heding_banner{font-size:29px;font-weight:400;margin-bottom:0}
 .Xogen_black_heding{display: none; margin-top:30px;font-size:38px;font-weight:600;color:#4b4b4b;text-transform:uppercase;}
-.xogen_banner_content{margin-bottom:60px}
+.xogen_banner_content{margin-bottom:60px;}
 .xogen_banner_content img{width:70%}
 @media (max-width:1680px){
 .Xogen_heding_banner{font-size:50px}
@@ -332,14 +332,20 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 /*.Xogen_black_heding{font-size:24px}*/
 }
 @media (max-width:1024px){
-.Xogen_heding_banner{font-size:30px}
+.Xogen_heding_banner{font-size:3px}
 .Xogen_Sub_heding_banner{font-size:16px}
+.xogen_banner_content{
+	padding-right: 50px;
+}
 .xogen_banner_content img{width:60%}
 /*.Xogen_black_heding{margin-top:15px;font-size:18px}*/
 }
 @media (max-width:992px){
 .Xogen_Sub_heding_banner{font-size:21px}
 .Xogen_heding_banner{font-size:36px}
+.xogen_banner_content{
+	padding-right: 10px;
+}
 }
 @media (max-width:800px){
 .Xogen_Sub_heding_banner{font-size:21px}
@@ -373,7 +379,7 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 .Xogen_heding_banner{font-size:40px}
 .Xogen_Sub_heding_banner{font-size:21px}
 .xogen_banner_content img{width:65%}
-.Xogen_black_heding{font-size:20px}
+.Xogen_black_heding{font-size:28px}
 }
 @media (max-width:384px){
 .Xogen_heding_banner{font-size:38px}
@@ -401,6 +407,17 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
     background-size: auto !important;
 }
 
+@media (max-width:1024px){
+   
+.banner_list_xogen li{
+  font-size: 18px;
+  font-weight: 600;
+  color: #464646;
+}
+
+}
+
+
 @media (max-width:600px){
 	.xogen-ban-new-in-india {
 		background-image: none;
@@ -408,4 +425,11 @@ hr.bannerhr{width:80px;border:2px solid #0074ad}
 	.banner_list_xogen{
 		padding-top: 5px;
 	}
+
+
+.banner_list_xogen li{
+  font-size: 21px;
+  font-weight: 600;
+  color: #464646;
+}
 }
